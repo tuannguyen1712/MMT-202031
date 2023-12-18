@@ -1,0 +1,3 @@
+package tesssttt;
+
+@license(LGPL);

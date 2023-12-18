@@ -1,0 +1,175 @@
+version 3
+run General-0-20231217-16:50:40-17788
+attr configname General
+attr datetime 20231217-16:50:40
+attr datetimef 20231217-165040
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 17788
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Network
+config record-eventlog true
+config **.x "uniform(0m, 1000m)"
+config **.y "uniform(0m, 1000m)"
+config Network.host[*].iaTime exponential(0.1ms)
+config Network.slotTime 0.00001s
+config sim-time-limit 3s
+
+par Network.hub typename "\"tesssttt.Hub\""
+par Network.hub x 548.814m
+attr unit m
+par Network.hub y 592.845m
+attr unit m
+par Network.host[0] typename "\"tesssttt.Host\""
+par Network.host[0] iaTime exponential(0.1ms)
+attr unit s
+par Network.host[0] x 715.189m
+attr unit m
+par Network.host[0] y 844.266m
+attr unit m
+par Network.host[0] slotTime 1e-05s
+attr unit s
+scalar Network.host[0] "Back off" 78
+scalar Network.host[0] Transmit 79
+scalar Network.host[0] Success 79
+scalar Network.host[0] Abort 3
+scalar Network.host[0] Attempt 0
+par Network.host[1] typename "\"tesssttt.Host\""
+par Network.host[1] iaTime exponential(0.1ms)
+attr unit s
+par Network.host[1] x 602.763m
+attr unit m
+par Network.host[1] y 857.946m
+attr unit m
+par Network.host[1] slotTime 1e-05s
+attr unit s
+scalar Network.host[1] "Back off" 83
+scalar Network.host[1] Transmit 0
+scalar Network.host[1] Success 0
+scalar Network.host[1] Abort 4
+scalar Network.host[1] Attempt 0
+par Network.host[2] typename "\"tesssttt.Host\""
+par Network.host[2] iaTime exponential(0.1ms)
+attr unit s
+par Network.host[2] x 544.883m
+attr unit m
+par Network.host[2] y 847.252m
+attr unit m
+par Network.host[2] slotTime 1e-05s
+attr unit s
+scalar Network.host[2] "Back off" 67
+scalar Network.host[2] Transmit 0
+scalar Network.host[2] Success 0
+scalar Network.host[2] Abort -1862358541
+scalar Network.host[2] Attempt 0
+par Network.host[3] typename "\"tesssttt.Host\""
+par Network.host[3] iaTime exponential(0.1ms)
+attr unit s
+par Network.host[3] x 423.655m
+attr unit m
+par Network.host[3] y 623.564m
+attr unit m
+par Network.host[3] slotTime 1e-05s
+attr unit s
+scalar Network.host[3] "Back off" 67
+scalar Network.host[3] Transmit 0
+scalar Network.host[3] Success 0
+scalar Network.host[3] Abort -1862354573
+scalar Network.host[3] Attempt 0
+par Network.host[4] typename "\"tesssttt.Host\""
+par Network.host[4] iaTime exponential(0.1ms)
+attr unit s
+par Network.host[4] x 645.894m
+attr unit m
+par Network.host[4] y 384.382m
+attr unit m
+par Network.host[4] slotTime 1e-05s
+attr unit s
+scalar Network.host[4] "Back off" 65
+scalar Network.host[4] Transmit 0
+scalar Network.host[4] Success 0
+scalar Network.host[4] Abort -1868390557
+scalar Network.host[4] Attempt 0
+par Network.host[5] typename "\"tesssttt.Host\""
+par Network.host[5] iaTime exponential(0.1ms)
+attr unit s
+par Network.host[5] x 437.587m
+attr unit m
+par Network.host[5] y 297.535m
+attr unit m
+par Network.host[5] slotTime 1e-05s
+attr unit s
+scalar Network.host[5] "Back off" 101
+scalar Network.host[5] Transmit 0
+scalar Network.host[5] Success 0
+scalar Network.host[5] Abort 5
+scalar Network.host[5] Attempt 0
+par Network.host[6] typename "\"tesssttt.Host\""
+par Network.host[6] iaTime exponential(0.1ms)
+attr unit s
+par Network.host[6] x 891.773m
+attr unit m
+par Network.host[6] y 56.713m
+attr unit m
+par Network.host[6] slotTime 1e-05s
+attr unit s
+scalar Network.host[6] "Back off" 83
+scalar Network.host[6] Transmit 1
+scalar Network.host[6] Success 0
+scalar Network.host[6] Abort 4
+scalar Network.host[6] Attempt 1
+par Network.host[7] typename "\"tesssttt.Host\""
+par Network.host[7] iaTime exponential(0.1ms)
+attr unit s
+par Network.host[7] x 963.663m
+attr unit m
+par Network.host[7] y 272.656m
+attr unit m
+par Network.host[7] slotTime 1e-05s
+attr unit s
+scalar Network.host[7] "Back off" 76
+scalar Network.host[7] Transmit 29
+scalar Network.host[7] Success 29
+scalar Network.host[7] Abort -1862355469
+scalar Network.host[7] Attempt 0
+par Network.host[8] typename "\"tesssttt.Host\""
+par Network.host[8] iaTime exponential(0.1ms)
+attr unit s
+par Network.host[8] x 383.442m
+attr unit m
+par Network.host[8] y 477.665m
+attr unit m
+par Network.host[8] slotTime 1e-05s
+attr unit s
+scalar Network.host[8] "Back off" 62
+scalar Network.host[8] Transmit 142
+scalar Network.host[8] Success 140
+scalar Network.host[8] Abort 3
+scalar Network.host[8] Attempt 1
+par Network.host[9] typename "\"tesssttt.Host\""
+par Network.host[9] iaTime exponential(0.1ms)
+attr unit s
+par Network.host[9] x 791.725m
+attr unit m
+par Network.host[9] y 812.169m
+attr unit m
+par Network.host[9] slotTime 1e-05s
+attr unit s
+scalar Network.host[9] "Back off" 66
+scalar Network.host[9] Transmit 0
+scalar Network.host[9] Success 0
+scalar Network.host[9] Abort -1868390557
+scalar Network.host[9] Attempt 0
+par Network typename "\"tesssttt.simulations.Network\""
+par Network slotTime 0.01ms
+attr unit ms
+
